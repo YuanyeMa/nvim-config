@@ -7,7 +7,9 @@ opt.number = true
 opt.cursorline = true
 
 -- 启用鼠标
-opt.mouse:append("a")
+-- opt.mouse:append("a")
+-- 停用鼠标, 启用鼠标后会和iTerm2的Command+C/V功能冲突
+opt.mouse = ""
 
 -- 系统剪贴板
  opt.clipboard:append("unnamedplus")
